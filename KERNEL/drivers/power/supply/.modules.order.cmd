@@ -1,1 +1,0 @@
-cmd_drivers/power/supply/modules.order := {   echo drivers/power/supply/generic-adc-battery.ko;   echo drivers/power/supply/ds2760_battery.ko;   echo drivers/power/supply/gpio-charger.ko; :; } | awk '!x[$$0]++' - > drivers/power/supply/modules.order

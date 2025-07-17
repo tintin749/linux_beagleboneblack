@@ -25,7 +25,7 @@
 
 &{/chosen} {
  overlays {
-  BB-BONE-4D4C-01-00A1.kernel = "Mon Jul 14 22:28:01 2025";
+  BB-BONE-4D4C-01-00A1.kernel = "Thu Jul 17 23:49:46 2025";
  };
 };
 

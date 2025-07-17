@@ -1,1 +1,0 @@
-cmd_drivers/usb/gadget/function/modules.order := {   echo drivers/usb/gadget/function/usb_f_phonet.ko;   echo drivers/usb/gadget/function/u_audio.ko;   echo drivers/usb/gadget/function/usb_f_uac1.ko;   echo drivers/usb/gadget/function/usb_f_uac2.ko;   echo drivers/usb/gadget/function/usb_f_midi.ko; :; } | awk '!x[$$0]++' - > drivers/usb/gadget/function/modules.order

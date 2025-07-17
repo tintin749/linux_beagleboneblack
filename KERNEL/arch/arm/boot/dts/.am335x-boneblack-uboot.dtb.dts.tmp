@@ -4226,7 +4226,7 @@ bone_adc: &tscadc {
 
  chosen {
   base_dtb = "am335x-boneblack-uboot.dts";
-  base_dtb_timestamp = "Mon Jul 14 22:28:01 2025";
+  base_dtb_timestamp = "Thu Jul 17 23:49:46 2025";
  };
 
  memory@80000000 {

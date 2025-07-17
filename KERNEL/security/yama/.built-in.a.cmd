@@ -1,1 +1,0 @@
-cmd_security/yama/built-in.a := rm -f security/yama/built-in.a; /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/temp/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/arm-linux-gnueabi-ar cDPrST security/yama/built-in.a security/yama/yama_lsm.o

@@ -19,11 +19,11 @@
 @ -I ./arch/arm/include/generated/uapi -I ./include/uapi
 @ -I ./include/generated/uapi -I ./arch/arm/mach-omap2/include
 @ -I ./arch/arm/plat-omap/include
-@ -iprefix /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/temp/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/10.5.0/
+@ -iprefix /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/linux_beagleboneblack/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/10.5.0/
 @ -D __KERNEL__ -D __LINUX_ARM_ARCH__=7 -U arm
 @ -D KBUILD_MODFILE="arch/arm/mach-omap2/pm-asm-offsets"
 @ -D KBUILD_BASENAME="pm_asm_offsets" -D KBUILD_MODNAME="pm_asm_offsets"
-@ -isystem /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/temp/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/10.5.0/include
+@ -isystem /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/linux_beagleboneblack/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/10.5.0/include
 @ -include ./include/linux/kconfig.h
 @ -include ./include/linux/compiler_types.h
 @ -MMD arch/arm/mach-omap2/.pm-asm-offsets.s.d

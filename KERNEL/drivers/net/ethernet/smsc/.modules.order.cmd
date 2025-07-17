@@ -1,1 +1,0 @@
-cmd_drivers/net/ethernet/smsc/modules.order := {   echo drivers/net/ethernet/smsc/smc91x.ko;   echo drivers/net/ethernet/smsc/smc911x.ko;   echo drivers/net/ethernet/smsc/smsc911x.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/smsc/modules.order

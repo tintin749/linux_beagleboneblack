@@ -1,1 +1,0 @@
-cmd_drivers/nfc/modules.order := {   cat drivers/nfc/pn533/modules.order;   echo drivers/nfc/nfcsim.ko;   echo drivers/nfc/port100.ko;   echo drivers/nfc/trf7970a.ko;   cat drivers/nfc/st-nci/modules.order;   cat drivers/nfc/nxp-nci/modules.order;   cat drivers/nfc/st95hf/modules.order; :; } | awk '!x[$$0]++' - > drivers/nfc/modules.order

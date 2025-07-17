@@ -1,1 +1,0 @@
-cmd_drivers/misc/eeprom/modules.order := {   echo drivers/misc/eeprom/eeprom.ko;   echo drivers/misc/eeprom/max6875.ko;   echo drivers/misc/eeprom/eeprom_93cx6.ko;   echo drivers/misc/eeprom/eeprom_93xx46.ko; :; } | awk '!x[$$0]++' - > drivers/misc/eeprom/modules.order

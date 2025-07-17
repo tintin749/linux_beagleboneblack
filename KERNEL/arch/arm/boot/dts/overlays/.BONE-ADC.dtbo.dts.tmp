@@ -11,7 +11,7 @@
 
 &{/chosen} {
  overlays {
-  BONE-ADC.kernel = "Mon Jul 14 22:28:01 2025";
+  BONE-ADC.kernel = "Thu Jul 17 23:49:46 2025";
  };
 };
 

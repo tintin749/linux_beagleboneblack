@@ -7,7 +7,7 @@
 
 &{/chosen} {
  overlays {
-  LED_P8_04.kernel = "Mon Jul 14 22:28:01 2025";
+  LED_P8_04.kernel = "Thu Jul 17 23:49:46 2025";
  };
 };
 

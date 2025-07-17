@@ -15,7 +15,7 @@
 
 &{/chosen} {
  overlays {
-  BB-I2C2-BME680.kernel = "Mon Jul 14 22:28:01 2025";
+  BB-I2C2-BME680.kernel = "Thu Jul 17 23:49:46 2025";
  };
 };
 

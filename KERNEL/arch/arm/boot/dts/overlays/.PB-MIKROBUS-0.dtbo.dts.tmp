@@ -23,7 +23,7 @@
 
 &{/chosen} {
  overlays {
-  PB-MIKROBUS-0.kernel = "Mon Jul 14 22:28:01 2025";
+  PB-MIKROBUS-0.kernel = "Thu Jul 17 23:49:46 2025";
  };
 };
 

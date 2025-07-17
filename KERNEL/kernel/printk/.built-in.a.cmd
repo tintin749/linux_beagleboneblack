@@ -1,1 +1,0 @@
-cmd_kernel/printk/built-in.a := rm -f kernel/printk/built-in.a; /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/temp/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/arm-linux-gnueabi-ar cDPrST kernel/printk/built-in.a kernel/printk/printk.o kernel/printk/printk_safe.o kernel/printk/braille.o kernel/printk/printk_ringbuffer.o

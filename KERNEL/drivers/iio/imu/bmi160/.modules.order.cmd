@@ -1,1 +1,0 @@
-cmd_drivers/iio/imu/bmi160/modules.order := {   echo drivers/iio/imu/bmi160/bmi160_core.ko;   echo drivers/iio/imu/bmi160/bmi160_i2c.ko;   echo drivers/iio/imu/bmi160/bmi160_spi.ko; :; } | awk '!x[$$0]++' - > drivers/iio/imu/bmi160/modules.order

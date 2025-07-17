@@ -1,1 +1,0 @@
-cmd_drivers/input/keyboard/modules.order := {   echo drivers/input/keyboard/adp5588-keys.ko;   echo drivers/input/keyboard/tca8418_keypad.ko;   echo drivers/input/keyboard/lm8323.ko;   echo drivers/input/keyboard/max7359_keypad.ko;   echo drivers/input/keyboard/qt2160.ko;   echo drivers/input/keyboard/stowaway.ko; :; } | awk '!x[$$0]++' - > drivers/input/keyboard/modules.order

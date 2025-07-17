@@ -1,1 +1,0 @@
-cmd_drivers/mtd/nand/raw/modules.order := {   cat drivers/mtd/nand/raw/ingenic/modules.order;   echo drivers/mtd/nand/raw/nandsim.ko;   echo drivers/mtd/nand/raw/omap2_nand.ko; :; } | awk '!x[$$0]++' - > drivers/mtd/nand/raw/modules.order

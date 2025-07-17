@@ -1,1 +1,0 @@
-cmd_net/vmw_vsock/vsock.o := /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/ti-linux-kernel-dev/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/arm-linux-gnueabi-ld  -EL -z noexecstack --no-warn-rwx-segments    -r -o net/vmw_vsock/vsock.o net/vmw_vsock/af_vsock.o net/vmw_vsock/af_vsock_tap.o net/vmw_vsock/vsock_addr.o

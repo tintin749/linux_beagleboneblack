@@ -1,1 +1,0 @@
-cmd_io_uring/built-in.a := rm -f io_uring/built-in.a; /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/temp/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/arm-linux-gnueabi-ar cDPrST io_uring/built-in.a io_uring/io_uring.o io_uring/io-wq.o

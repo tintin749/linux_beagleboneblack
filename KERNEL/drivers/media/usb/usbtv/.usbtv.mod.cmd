@@ -1,1 +1,0 @@
-cmd_drivers/media/usb/usbtv/usbtv.mod := { echo  drivers/media/usb/usbtv/usbtv-core.o drivers/media/usb/usbtv/usbtv-video.o drivers/media/usb/usbtv/usbtv-audio.o;  echo; } > drivers/media/usb/usbtv/usbtv.mod

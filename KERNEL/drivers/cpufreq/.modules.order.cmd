@@ -1,1 +1,0 @@
-cmd_drivers/cpufreq/modules.order := {   echo drivers/cpufreq/cpufreq_powersave.ko;   echo drivers/cpufreq/cpufreq_userspace.ko;   echo drivers/cpufreq/cpufreq_ondemand.ko;   echo drivers/cpufreq/cpufreq_conservative.ko;   echo drivers/cpufreq/cpufreq-dt.ko; :; } | awk '!x[$$0]++' - > drivers/cpufreq/modules.order

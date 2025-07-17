@@ -18,12 +18,12 @@
 @ -I ./arch/arm/include/generated -I ./include -I ./arch/arm/include/uapi
 @ -I ./arch/arm/include/generated/uapi -I ./include/uapi
 @ -I ./include/generated/uapi
-@ -iprefix /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/temp/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/10.5.0/
+@ -iprefix /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/linux_beagleboneblack/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/10.5.0/
 @ -D __KERNEL__ -D __LINUX_ARM_ARCH__=7 -U arm
 @ -D KBUILD_MODFILE="scripts/mod/devicetable-offsets"
 @ -D KBUILD_BASENAME="devicetable_offsets"
 @ -D KBUILD_MODNAME="devicetable_offsets"
-@ -isystem /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/temp/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/10.5.0/include
+@ -isystem /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/linux_beagleboneblack/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabi/10.5.0/include
 @ -include ./include/linux/kconfig.h
 @ -include ./include/linux/compiler_types.h
 @ -MMD scripts/mod/.devicetable-offsets.s.d

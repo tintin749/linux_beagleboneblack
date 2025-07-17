@@ -1,1 +1,0 @@
-cmd_drivers/spi/modules.order := {   echo drivers/spi/spidev.ko;   echo drivers/spi/spi-slave-time.ko;   echo drivers/spi/spi-slave-system-control.ko; :; } | awk '!x[$$0]++' - > drivers/spi/modules.order
