@@ -1,0 +1,40 @@
+!<thin>
+//                                              282       `
+dmi_scan.o/
+dmi-sysfs.o/
+dmi-id.o/
+trusted_foundations.o/
+efi/efi.o/
+efi/vars.o/
+efi/reboot.o/
+efi/memattr.o/
+efi/tpm.o/
+efi/capsule.o/
+efi/memmap.o/
+efi/fdtparams.o/
+efi/esrt.o/
+efi/runtime-wrappers.o/
+efi/efi-init.o/
+efi/arm-runtime.o/
+psci/psci.o/
+smccc/smccc.o/
+smccc/soc_id.o/
+/0              0           0     0     644     22372     `
+/12             0           0     0     644     17064     `
+/25             0           0     0     644     7480      `
+/35             0           0     0     644     3676      `
+/58             0           0     0     644     20404     `
+/69             0           0     0     644     24208     `
+/81             0           0     0     644     3180      `
+/95             0           0     0     644     4476      `
+/110            0           0     0     644     3816      `
+/121            0           0     0     644     5828      `
+/136            0           0     0     644     5544      `
+/150            0           0     0     644     2800      `
+/167            0           0     0     644     10716     `
+/179            0           0     0     644     13724     `
+/203            0           0     0     644     6472      `
+/219            0           0     0     644     4364      `
+/238            0           0     0     644     11024     `
+/251            0           0     0     644     3084      `
+/266            0           0     0     644     4396      `

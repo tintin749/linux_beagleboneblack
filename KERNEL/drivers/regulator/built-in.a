@@ -1,0 +1,33 @@
+!<thin>
+//                                              240       `
+core.o/
+dummy.o/
+fixed-helper.o/
+helpers.o/
+devres.o/
+of_regulator.o/
+fixed.o/
+userspace-consumer.o/
+gpio-regulator.o/
+palmas-regulator.o/
+pwm-regulator.o/
+pbias-regulator.o/
+ti-abb-regulator.o/
+tps65217-regulator.o/
+tps65218-regulator.o/
+
+/0              0           0     0     644     128496    `
+/8              0           0     0     644     3932      `
+/17             0           0     0     644     1772      `
+/33             0           0     0     644     23528     `
+/44             0           0     0     644     13480     `
+/54             0           0     0     644     13396     `
+/70             0           0     0     644     7696      `
+/79             0           0     0     644     5948      `
+/101            0           0     0     644     8304      `
+/119            0           0     0     644     24360     `
+/139            0           0     0     644     10428     `
+/156            0           0     0     644     7652      `
+/175            0           0     0     644     16524     `
+/195            0           0     0     644     8180      `
+/217            0           0     0     644     9768      `

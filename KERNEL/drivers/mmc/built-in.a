@@ -1,0 +1,51 @@
+!<thin>
+//                                              380       `
+core/core.o/
+core/bus.o/
+core/host.o/
+core/mmc.o/
+core/mmc_ops.o/
+core/sd.o/
+core/sd_ops.o/
+core/sdio.o/
+core/sdio_ops.o/
+core/sdio_bus.o/
+core/sdio_cis.o/
+core/sdio_io.o/
+core/sdio_irq.o/
+core/slot-gpio.o/
+core/regulator.o/
+core/pwrseq.o/
+core/debugfs.o/
+core/pwrseq_simple.o/
+core/pwrseq_emmc.o/
+core/block.o/
+core/queue.o/
+host/sdhci.o/
+host/sdhci-pltfm.o/
+host/sdhci-omap.o/
+
+/0              0           0     0     644     64948     `
+/13             0           0     0     644     9196      `
+/25             0           0     0     644     18096     `
+/38             0           0     0     644     28208     `
+/50             0           0     0     644     20128     `
+/66             0           0     0     644     19120     `
+/77             0           0     0     644     5536      `
+/92             0           0     0     644     16864     `
+/105            0           0     0     644     3860      `
+/122            0           0     0     644     9404      `
+/139            0           0     0     644     5164      `
+/156            0           0     0     644     21172     `
+/172            0           0     0     644     8424      `
+/189            0           0     0     644     8316      `
+/207            0           0     0     644     6316      `
+/225            0           0     0     644     4212      `
+/240            0           0     0     644     7072      `
+/256            0           0     0     644     5496      `
+/278            0           0     0     644     4884      `
+/298            0           0     0     644     41712     `
+/312            0           0     0     644     7872      `
+/326            0           0     0     644     79860     `
+/340            0           0     0     644     12216     `
+/360            0           0     0     644     19804     `

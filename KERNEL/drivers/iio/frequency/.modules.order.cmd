@@ -1,0 +1,1 @@
+cmd_drivers/iio/frequency/modules.order := {   echo drivers/iio/frequency/ad9523.ko;   echo drivers/iio/frequency/adf4350.ko;   echo drivers/iio/frequency/adf4371.ko; :; } | awk '!x[$$0]++' - > drivers/iio/frequency/modules.order

@@ -1,0 +1,2 @@
+drivers/mtd/maps/physmap.ko
+drivers/mtd/maps/plat-ram.ko

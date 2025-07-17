@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/ti/vpe/modules.order := {   echo drivers/media/platform/ti/vpe/ti-vpe.ko;   echo drivers/media/platform/ti/vpe/ti-vpdma.ko;   echo drivers/media/platform/ti/vpe/ti-sc.ko;   echo drivers/media/platform/ti/vpe/ti-csc.ko; :; } | awk '!x[$$0]++' - > drivers/media/platform/ti/vpe/modules.order

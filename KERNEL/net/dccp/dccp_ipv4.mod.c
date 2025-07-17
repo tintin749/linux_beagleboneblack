@@ -1,0 +1,153 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x3726c6aa, "module_layout" },
+	{ 0x4e8bddaf, "inet_csk_reqsk_queue_drop" },
+	{ 0x59814a84, "dccp_statistics" },
+	{ 0x49045426, "icmp_err_convert" },
+	{ 0xfe2d7cbe, "dccp_init_sock" },
+	{ 0xa0439cbc, "_raw_spin_unlock" },
+	{ 0xd617571e, "dccp_set_state" },
+	{ 0x6cf0bcd9, "ip_getsockopt" },
+	{ 0xf87ed3d6, "inet_unhash" },
+	{ 0xbedd795d, "inet_twsk_put" },
+	{ 0xf4eb0486, "dccp_hashinfo" },
+	{ 0xff6f89d0, "ip_setsockopt" },
+	{ 0x8786508d, "dccp_sendmsg" },
+	{ 0x60a12ab6, "ip_build_and_send_pkt" },
+	{ 0x9f979580, "sk_setup_caps" },
+	{ 0xb2e5df17, "sock_gettstamp" },
+	{ 0x27d3218e, "dccp_ctl_make_reset" },
+	{ 0xdd925390, "dccp_destroy_sock" },
+	{ 0x7278d4de, "dccp_make_response" },
+	{ 0x761d04d1, "sock_release" },
+	{ 0xac0af05c, "dst_release" },
+	{ 0x446ceba, "dccp_send_sync" },
+	{ 0xee56e20e, "dccp_rcv_established" },
+	{ 0x8091f5d3, "sock_pfree" },
+	{ 0x609c64d, "security_skb_classify_flow" },
+	{ 0x8dd13d27, "inet_csk_prepare_forced_close" },
+	{ 0xb7505f8c, "dccp_create_openreq_child" },
+	{ 0x77bc07bc, "dccp_check_req" },
+	{ 0x957e6251, "inet_sendmsg" },
+	{ 0xfe8387e3, "dccp_recvmsg" },
+	{ 0xdea41ba9, "inet_del_protocol" },
+	{ 0xacdcb8ea, "inet_sk_rebuild_header" },
+	{ 0xc38259af, "__this_cpu_preempt_check" },
+	{ 0x50a6fb53, "dccp_ioctl" },
+	{ 0x6fb71df0, "dccp_setsockopt" },
+	{ 0xccc4c9f2, "sock_common_recvmsg" },
+	{ 0xbdb9c4e, "sock_no_sendpage" },
+	{ 0x824bb753, "dccp_child_process" },
+	{ 0xfbe076b7, "__pskb_pull_tail" },
+	{ 0xf3288c43, "sock_no_mmap" },
+	{ 0x5f754e5a, "memset" },
+	{ 0x8fde8328, "sock_no_socketpair" },
+	{ 0xc1560f77, "skb_checksum" },
+	{ 0xa6ebf29a, "unregister_pernet_subsys" },
+	{ 0x33d0e02, "dccp_parse_options" },
+	{ 0x6de03b69, "dccp_getsockopt" },
+	{ 0x27a87a9, "inet_csk_update_pmtu" },
+	{ 0xf59a8fc2, "security_sk_classify_flow" },
+	{ 0xc5850110, "printk" },
+	{ 0x3c3fce39, "__local_bh_enable_ip" },
+	{ 0x77ac2eac, "inet_csk_route_req" },
+	{ 0x20a200ef, "inet_csk_route_child_sock" },
+	{ 0xa9ee6578, "kmem_cache_free" },
+	{ 0x17ada3c8, "inet_hash_connect" },
+	{ 0x9ebc6f7c, "dccp_reqsk_init" },
+	{ 0xd25e9498, "dccp_close" },
+	{ 0x951425dc, "sk_free" },
+	{ 0xf9a16bf3, "inet_shutdown" },
+	{ 0xf9fc78f9, "inet_add_protocol" },
+	{ 0xd75b7072, "dccp_orphan_count" },
+	{ 0x2469810f, "__rcu_read_unlock" },
+	{ 0x772271a4, "dccp_sync_mss" },
+	{ 0xfda9581f, "prandom_u32" },
+	{ 0xc1024f7c, "inet_accept" },
+	{ 0x43186e82, "inet_csk_reqsk_queue_drop_and_put" },
+	{ 0xc65e4e97, "secure_dccp_sequence_number" },
+	{ 0x42896fe3, "inet_ioctl" },
+	{ 0x20de1afb, "inet_csk_get_port" },
+	{ 0x5066375c, "dccp_death_row" },
+	{ 0xd7d8f792, "inet_ctl_sock_create" },
+	{ 0xf880a509, "dccp_poll" },
+	{ 0xedf1abc2, "__sk_receive_skb" },
+	{ 0x7d608731, "inet_hash" },
+	{ 0x86cb1e85, "proto_register" },
+	{ 0xb866750a, "ip_route_output_key_hash" },
+	{ 0x4f01b915, "dccp_disconnect" },
+	{ 0x551cab92, "__sk_dst_check" },
+	{ 0x6632c7f1, "inet_release" },
+	{ 0xf0f4b403, "dccp_done" },
+	{ 0x25dfd7ed, "inet_twsk_purge" },
+	{ 0x296695f, "refcount_warn_saturate" },
+	{ 0x86332725, "__stack_chk_fail" },
+	{ 0xf1e72fb7, "inet_reqsk_alloc" },
+	{ 0xd4fe72a, "kfree_skb" },
+	{ 0xd16d7288, "proto_unregister" },
+	{ 0x69a5baf6, "inet_stream_connect" },
+	{ 0x8a23ed45, "inet_getname" },
+	{ 0x688c56fa, "inet_ehash_nolisten" },
+	{ 0x71cb7d9f, "register_pernet_subsys" },
+	{ 0x4cdd391d, "dccp_feat_list_purge" },
+	{ 0xae577d60, "_raw_spin_lock" },
+	{ 0x4191ba30, "inet_csk_reqsk_queue_hash_add" },
+	{ 0x2a18c74, "nf_conntrack_destroy" },
+	{ 0x9b271af3, "ip_route_output_flow" },
+	{ 0xf6ebc03b, "net_ratelimit" },
+	{ 0xedab2dc5, "sock_common_setsockopt" },
+	{ 0x4ad8c4fc, "__xfrm_policy_check" },
+	{ 0x2cfde9a2, "warn_slowpath_fmt" },
+	{ 0xff083f7a, "inet_register_protosw" },
+	{ 0x37a0cba, "kfree" },
+	{ 0xe1761617, "security_inet_conn_request" },
+	{ 0xaaa453ad, "inet_dccp_listen" },
+	{ 0x9053ab50, "__inet_inherit_port" },
+	{ 0x871f2038, "inet_bind" },
+	{ 0x832849f8, "sock_common_getsockopt" },
+	{ 0x86be7924, "dccp_packet_name" },
+	{ 0xefd6cf06, "__aeabi_unwind_cpp_pr0" },
+	{ 0x75c5a765, "inet_csk_accept" },
+	{ 0x8f678b07, "__stack_chk_guard" },
+	{ 0x95f2e3ed, "__inet_lookup_listener" },
+	{ 0x6a89c76f, "dccp_reqsk_send_ack" },
+	{ 0x6dad53c6, "dccp_rcv_state_process" },
+	{ 0xa02c3f5d, "dccp_connect" },
+	{ 0xf05d0067, "dccp_shutdown" },
+	{ 0x8d522714, "__rcu_read_lock" },
+	{ 0xf229424a, "preempt_count_add" },
+	{ 0x8fef6811, "ip_queue_xmit" },
+	{ 0xf64c5f36, "inet_unregister_protosw" },
+	{ 0xb0f7da41, "inet_csk_addr2sockaddr" },
+	{ 0xf078246a, "__inet_lookup_established" },
+};
+
+MODULE_INFO(depends, "dccp");
+

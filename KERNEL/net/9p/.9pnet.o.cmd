@@ -1,0 +1,1 @@
+cmd_net/9p/9pnet.o := /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/temp/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/arm-linux-gnueabi-ld  -EL -z noexecstack --no-warn-rwx-segments    -r -o net/9p/9pnet.o net/9p/mod.o net/9p/client.o net/9p/error.o net/9p/protocol.o net/9p/trans_fd.o net/9p/trans_common.o

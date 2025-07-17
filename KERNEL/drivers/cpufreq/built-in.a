@@ -1,0 +1,18 @@
+!<thin>
+//                                              150       `
+cpufreq.o/
+freq_table.o/
+cpufreq_stats.o/
+cpufreq_performance.o/
+cpufreq_governor.o/
+cpufreq_governor_attr_set.o/
+cpufreq-dt-platdev.o/
+ti-cpufreq.o/
+/0              0           0     0     644     77696     `
+/11             0           0     0     644     13300     `
+/25             0           0     0     644     5816      `
+/42             0           0     0     644     4252      `
+/65             0           0     0     644     12264     `
+/85             0           0     0     644     4552      `
+/114            0           0     0     644     23308     `
+/136            0           0     0     644     8712      `

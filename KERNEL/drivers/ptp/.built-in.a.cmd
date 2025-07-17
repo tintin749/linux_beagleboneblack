@@ -1,0 +1,1 @@
+cmd_drivers/ptp/built-in.a := rm -f drivers/ptp/built-in.a; /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/ti-linux-kernel-dev/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/arm-linux-gnueabi-ar cDPrST drivers/ptp/built-in.a drivers/ptp/ptp_clock.o drivers/ptp/ptp_chardev.o drivers/ptp/ptp_sysfs.o

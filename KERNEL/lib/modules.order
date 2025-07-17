@@ -1,0 +1,12 @@
+lib/math/cordic.ko
+lib/crypto/libchacha.ko
+lib/crypto/libarc4.ko
+lib/crypto/libpoly1305.ko
+lib/lz4/lz4_compress.ko
+lib/lz4/lz4hc_compress.ko
+lib/crc64.ko
+lib/crc8.ko
+lib/ts_kmp.ko
+lib/ts_bm.ko
+lib/ts_fsm.ko
+lib/lru_cache.ko

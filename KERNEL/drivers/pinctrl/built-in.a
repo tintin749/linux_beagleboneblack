@@ -1,0 +1,20 @@
+!<thin>
+//                                              140       `
+core.o/
+pinctrl-utils.o/
+pinmux.o/
+pinconf.o/
+devicetree.o/
+pinconf-generic.o/
+pinctrl-palmas.o/
+pinctrl-single.o/
+ti/pinctrl-ti-iodelay.o/
+/0              0           0     0     644     58308     `
+/8              0           0     0     644     5472      `
+/25             0           0     0     644     17344     `
+/35             0           0     0     644     8108      `
+/46             0           0     0     644     8100      `
+/60             0           0     0     644     11900     `
+/79             0           0     0     644     22664     `
+/97             0           0     0     644     26592     `
+/115            0           0     0     644     13908     `

@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/modules.order := {   echo drivers/i2c/busses/i2c-diolan-u2c.ko;   echo drivers/i2c/busses/i2c-robotfuzz-osif.ko;   echo drivers/i2c/busses/i2c-taos-evm.ko;   echo drivers/i2c/busses/i2c-tiny-usb.ko; :; } | awk '!x[$$0]++' - > drivers/i2c/busses/modules.order

@@ -1,0 +1,27 @@
+!<thin>
+//                                              160       `
+ehci-hcd.o/
+ehci-platform.o/
+ehci-omap.o/
+xhci.o/
+xhci-mem.o/
+xhci-ext-caps.o/
+xhci-ring.o/
+xhci-hub.o/
+xhci-dbg.o/
+xhci-trace.o/
+xhci-debugfs.o/
+xhci-plat.o/
+
+/0              0           0     0     644     95084     `
+/12             0           0     0     644     12356     `
+/29             0           0     0     644     6996      `
+/42             0           0     0     644     92424     `
+/50             0           0     0     644     37216     `
+/62             0           0     0     644     3904      `
+/79             0           0     0     644     71684     `
+/92             0           0     0     644     29056     `
+/104            0           0     0     644     3216      `
+/116            0           0     0     644     85156     `
+/130            0           0     0     644     28164     `
+/146            0           0     0     644     14032     `

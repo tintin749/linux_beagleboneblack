@@ -1,0 +1,106 @@
+!<thin>
+//                                              1196      `
+tuners/tuner-xc2028.o/
+tuners/tuner-simple.o/
+tuners/tuner-types.o/
+tuners/mt20xx.o/
+tuners/tda8290.o/
+tuners/tea5767.o/
+tuners/tea5761.o/
+tuners/tda9887.o/
+tuners/tda827x.o/
+tuners/tda18271-maps.o/
+tuners/tda18271-common.o/
+tuners/tda18271-fe.o/
+tuners/xc5000.o/
+tuners/xc4000.o/
+tuners/mc44s803.o/
+mc/mc-device.o/
+mc/mc-devnode.o/
+mc/mc-entity.o/
+mc/mc-request.o/
+mc/mc-dev-allocator.o/
+v4l2-core/v4l2-dev.o/
+v4l2-core/v4l2-ioctl.o/
+v4l2-core/v4l2-device.o/
+v4l2-core/v4l2-fh.o/
+v4l2-core/v4l2-event.o/
+v4l2-core/v4l2-ctrls.o/
+v4l2-core/v4l2-subdev.o/
+v4l2-core/v4l2-clk.o/
+v4l2-core/v4l2-async.o/
+v4l2-core/v4l2-common.o/
+v4l2-core/v4l2-trace.o/
+v4l2-core/v4l2-mc.o/
+v4l2-core/v4l2-spi.o/
+v4l2-core/v4l2-i2c.o/
+v4l2-core/v4l2-dv-timings.o/
+dvb-core/dvbdev.o/
+dvb-core/dmxdev.o/
+dvb-core/dvb_demux.o/
+dvb-core/dvb_ca_en50221.o/
+dvb-core/dvb_frontend.o/
+dvb-core/dvb_net.o/
+dvb-core/dvb_ringbuffer.o/
+dvb-core/dvb_math.o/
+cec/core/cec-core.o/
+cec/core/cec-adap.o/
+cec/core/cec-api.o/
+common/videobuf2/videobuf2-core.o/
+common/videobuf2/vb2-trace.o/
+common/videobuf2/videobuf2-v4l2.o/
+common/videobuf2/videobuf2-memops.o/
+common/videobuf2/videobuf2-vmalloc.o/
+radio/si470x/radio-si470x-common.o/
+/0              0           0     0     644     31292     `
+/23             0           0     0     644     20604     `
+/46             0           0     0     644     19104     `
+/68             0           0     0     644     15500     `
+/85             0           0     0     644     21100     `
+/103            0           0     0     644     10532     `
+/121            0           0     0     644     8120      `
+/139            0           0     0     644     16000     `
+/157            0           0     0     644     14688     `
+/175            0           0     0     644     13968     `
+/199            0           0     0     644     16176     `
+/225            0           0     0     644     27448     `
+/247            0           0     0     644     26300     `
+/264            0           0     0     644     33736     `
+/281            0           0     0     644     5980      `
+/300            0           0     0     644     17872     `
+/316            0           0     0     644     8160      `
+/333            0           0     0     644     34728     `
+/349            0           0     0     644     15924     `
+/366            0           0     0     644     6140      `
+/389            0           0     0     644     25360     `
+/411            0           0     0     644     76904     `
+/435            0           0     0     644     9700      `
+/460            0           0     0     644     6636      `
+/481            0           0     0     644     11956     `
+/505            0           0     0     644     136524    `
+/529            0           0     0     644     31952     `
+/554            0           0     0     644     11524     `
+/576            0           0     0     644     17640     `
+/600            0           0     0     644     12408     `
+/625            0           0     0     644     30368     `
+/649            0           0     0     644     13988     `
+/670            0           0     0     644     3192      `
+/692            0           0     0     644     6780      `
+/714            0           0     0     644     36404     `
+/743            0           0     0     644     23980     `
+/762            0           0     0     644     17660     `
+/781            0           0     0     644     18152     `
+/803            0           0     0     644     27544     `
+/830            0           0     0     644     52104     `
+/855            0           0     0     644     24056     `
+/875            0           0     0     644     11528     `
+/902            0           0     0     644     3308      `
+/923            0           0     0     644     12588     `
+/944            0           0     0     644     36276     `
+/965            0           0     0     644     10344     `
+/985            0           0     0     644     59176     `
+/1020           0           0     0     644     14548     `
+/1050           0           0     0     644     37228     `
+/1085           0           0     0     644     5480      `
+/1122           0           0     0     644     8600      `
+/1160           0           0     0     644     13080     `

@@ -1,0 +1,151 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x3726c6aa, "module_layout" },
+	{ 0x6d89b199, "proc_dointvec_minmax" },
+	{ 0x6d662533, "_find_first_bit_le" },
+	{ 0x81fed507, "release_sock" },
+	{ 0xa24f23d8, "__request_module" },
+	{ 0x8335c0f7, "kmalloc_caches" },
+	{ 0xf2af389d, "sock_init_data" },
+	{ 0xa0439cbc, "_raw_spin_unlock" },
+	{ 0x420964e3, "__nla_parse" },
+	{ 0xbd4afe0d, "from_kuid_munged" },
+	{ 0xad73041f, "autoremove_wake_function" },
+	{ 0x91637e86, "unregister_net_sysctl_table" },
+	{ 0xc1d0431e, "seq_puts" },
+	{ 0x75a38389, "skb_clone" },
+	{ 0xd3f57a2, "_find_next_bit_le" },
+	{ 0x2a3aa678, "_test_and_clear_bit" },
+	{ 0x42dfed5c, "seq_printf" },
+	{ 0xd2da1048, "register_netdevice_notifier" },
+	{ 0x9665f50, "rtnl_notify" },
+	{ 0xbde00808, "remove_proc_entry" },
+	{ 0x8d49882b, "__dynamic_pr_debug" },
+	{ 0xf2d5d4fa, "sock_queue_rcv_skb" },
+	{ 0x353e3fa5, "__get_user_4" },
+	{ 0xd20eaabd, "skb_recv_datagram" },
+	{ 0x5562e403, "prepare_to_wait_exclusive" },
+	{ 0x67ea780, "mutex_unlock" },
+	{ 0xbaf22757, "kvfree_call_rcu" },
+	{ 0xe5259d4a, "sock_i_ino" },
+	{ 0x97885ea, "seq_pad" },
+	{ 0x4edb0078, "sk_common_release" },
+	{ 0x9d0d6206, "unregister_netdevice_notifier" },
+	{ 0xa1f00de7, "skb_trim" },
+	{ 0xccc4c9f2, "sock_common_recvmsg" },
+	{ 0x60bc5b55, "netif_rx" },
+	{ 0xbdb9c4e, "sock_no_sendpage" },
+	{ 0xfbe076b7, "__pskb_pull_tail" },
+	{ 0xf3288c43, "sock_no_mmap" },
+	{ 0x7eb34365, "skb_queue_purge" },
+	{ 0x5f754e5a, "memset" },
+	{ 0xdb1ae12a, "netif_rx_ni" },
+	{ 0x8fde8328, "sock_no_socketpair" },
+	{ 0xa6ebf29a, "unregister_pernet_subsys" },
+	{ 0xd73f4af1, "sk_alloc" },
+	{ 0x6e2f3c64, "rtnl_register_module" },
+	{ 0xa168c1e2, "skb_copy_datagram_iter" },
+	{ 0xe346f67a, "__mutex_init" },
+	{ 0xc5850110, "printk" },
+	{ 0xe1537255, "__list_del_entry_valid" },
+	{ 0x2564ce8, "lock_sock_nested" },
+	{ 0x735f33b0, "mutex_is_locked" },
+	{ 0xf687108, "nla_put" },
+	{ 0x47a1c17c, "sock_no_listen" },
+	{ 0xe6f8407d, "skb_push" },
+	{ 0xc271c3be, "mutex_lock" },
+	{ 0xc398c59, "sock_no_accept" },
+	{ 0x951425dc, "sk_free" },
+	{ 0xab722f50, "dev_get_by_index" },
+	{ 0x89082cfd, "dev_remove_pack" },
+	{ 0x2469810f, "__rcu_read_unlock" },
+	{ 0x6091797f, "synchronize_rcu" },
+	{ 0xb4aec65, "init_net" },
+	{ 0x40a7acf, "__dev_get_by_index" },
+	{ 0x68f31cbd, "__list_add_valid" },
+	{ 0xf891c1c7, "sock_no_shutdown" },
+	{ 0xedf1abc2, "__sk_receive_skb" },
+	{ 0xe864a95a, "module_put" },
+	{ 0xc6cbbc89, "capable" },
+	{ 0x86cb1e85, "proto_register" },
+	{ 0xe4f85256, "rtnl_set_sk_err" },
+	{ 0xcb4e576f, "netlink_capable" },
+	{ 0xbc10dd97, "__put_user_4" },
+	{ 0xc7fe9c97, "__alloc_skb" },
+	{ 0x296695f, "refcount_warn_saturate" },
+	{ 0x86332725, "__stack_chk_fail" },
+	{ 0x8b9e284a, "datagram_poll" },
+	{ 0x65c57ee7, "sock_register" },
+	{ 0x8ddd8aad, "schedule_timeout" },
+	{ 0xd4fe72a, "kfree_skb" },
+	{ 0xd16d7288, "proto_unregister" },
+	{ 0xe0a2d80, "_copy_from_iter_full" },
+	{ 0x53b7b2ef, "sock_alloc_send_skb" },
+	{ 0x71cb7d9f, "register_pernet_subsys" },
+	{ 0x233cd691, "pskb_expand_head" },
+	{ 0x9aa4003b, "proc_create_net_data" },
+	{ 0xfe2e64c4, "kmem_cache_alloc_trace" },
+	{ 0xae577d60, "_raw_spin_lock" },
+	{ 0xf6ebc03b, "net_ratelimit" },
+	{ 0xedab2dc5, "sock_common_setsockopt" },
+	{ 0x44b38fb1, "sock_no_connect" },
+	{ 0x49871971, "_raw_write_unlock_bh" },
+	{ 0x2cfde9a2, "warn_slowpath_fmt" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x9d669763, "memcpy" },
+	{ 0xb266e265, "___pskb_trim" },
+	{ 0x62737e1d, "sock_unregister" },
+	{ 0x832849f8, "sock_common_getsockopt" },
+	{ 0x579e0bf5, "rtnl_unregister_all" },
+	{ 0xa5a91711, "_raw_write_lock_bh" },
+	{ 0xb9acd3d9, "__put_user_2" },
+	{ 0x49970de8, "finish_wait" },
+	{ 0x95dbe078, "__get_user_2" },
+	{ 0xefd6cf06, "__aeabi_unwind_cpp_pr0" },
+	{ 0x8f678b07, "__stack_chk_guard" },
+	{ 0x676bbc0f, "_set_bit" },
+	{ 0x5a9f6cf8, "dev_add_pack" },
+	{ 0xca54fee, "_test_and_set_bit" },
+	{ 0x4fad61, "consume_skb" },
+	{ 0x85670f1d, "rtnl_is_locked" },
+	{ 0x1a474683, "dev_queue_xmit" },
+	{ 0x8d522714, "__rcu_read_lock" },
+	{ 0xefbdf2e3, "register_net_sysctl" },
+	{ 0x738c0b10, "skb_put" },
+	{ 0x8b39d220, "__nlmsg_put" },
+	{ 0x88db9f48, "__check_object_size" },
+	{ 0x500fe26a, "sock_i_uid" },
+	{ 0x50992cef, "try_module_get" },
+	{ 0x59161172, "skb_free_datagram" },
+	{ 0xda10ec3, "security_sock_graft" },
+};
+
+MODULE_INFO(depends, "");
+

@@ -1,0 +1,6 @@
+drivers/net/ethernet/micrel/ks8851_common.ko
+drivers/net/ethernet/micrel/ks8851_spi.ko
+drivers/net/ethernet/smsc/smc91x.ko
+drivers/net/ethernet/smsc/smc911x.ko
+drivers/net/ethernet/smsc/smsc911x.ko
+drivers/net/ethernet/ti/icss_iep.ko

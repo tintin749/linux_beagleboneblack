@@ -1,0 +1,63 @@
+# 1 "arch/arm/boot/dts/overlays/AM57XX-PRU-UIO-00A0.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm/boot/dts/overlays/AM57XX-PRU-UIO-00A0.dts"
+
+
+
+
+
+/dts-v1/;
+/plugin/;
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 10 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/arm-gic.h" 2
+# 10 "arch/arm/boot/dts/overlays/AM57XX-PRU-UIO-00A0.dts" 2
+
+
+
+
+
+&{/chosen} {
+ overlays {
+  AM57XX-PRU-UIO-00A0.kernel = "Mon Jul 14 22:28:01 2025";
+ };
+};
+
+&pruss1_tm {
+ status = "okay";
+};
+
+&pruss1 {
+ compatible = "ti,pruss-v2";
+ ti,pintc-offset = <0x20000>;
+ interrupts = <0 186 4>,
+       <0 187 4>,
+       <0 188 4>,
+       <0 189 4>,
+       <0 190 4>,
+       <0 191 4>,
+       <0 192 4>,
+       <0 193 4>;
+ pruss-instance = "pruss1";
+};
+
+&pruss2_tm {
+ status = "okay";
+};
+
+&pruss2 {
+ compatible = "ti,pruss-v2";
+ ti,pintc-offset = <0x20000>;
+ interrupts = <0 196 4>,
+       <0 197 4>,
+       <0 198 4>,
+       <0 199 4>,
+       <0 200 4>,
+       <0 201 4>,
+       <0 202 4>,
+       <0 203 4>;
+ pruss-instance = "pruss2";
+};

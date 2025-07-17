@@ -1,0 +1,6 @@
+drivers/mmc/core/pwrseq_sd8787.ko
+drivers/mmc/core/sdio_uart.ko
+drivers/mmc/host/mmc_spi.ko
+drivers/mmc/host/of_mmc_spi.ko
+drivers/mmc/host/vub300.ko
+drivers/mmc/host/ushc.ko

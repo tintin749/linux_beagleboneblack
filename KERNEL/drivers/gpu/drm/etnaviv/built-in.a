@@ -1,0 +1,32 @@
+!<thin>
+//                                              266       `
+etnaviv_buffer.o/
+etnaviv_cmd_parser.o/
+etnaviv_cmdbuf.o/
+etnaviv_drv.o/
+etnaviv_dump.o/
+etnaviv_gem_prime.o/
+etnaviv_gem_submit.o/
+etnaviv_gem.o/
+etnaviv_gpu.o/
+etnaviv_hwdb.o/
+etnaviv_iommu_v2.o/
+etnaviv_iommu.o/
+etnaviv_mmu.o/
+etnaviv_perfmon.o/
+etnaviv_sched.o/
+/0              0           0     0     644     9856      `
+/18             0           0     0     644     4320      `
+/40             0           0     0     644     3752      `
+/58             0           0     0     644     15332     `
+/73             0           0     0     644     4092      `
+/89             0           0     0     644     3780      `
+/110            0           0     0     644     11260     `
+/132            0           0     0     644     12292     `
+/147            0           0     0     644     31444     `
+/162            0           0     0     644     1716      `
+/178            0           0     0     644     4964      `
+/198            0           0     0     644     3644      `
+/215            0           0     0     644     7680      `
+/230            0           0     0     644     7716      `
+/249            0           0     0     644     5840      `

@@ -1,0 +1,14 @@
+!<thin>
+//                                              98        `
+watchdog_core.o/
+watchdog_dev.o/
+watchdog_pretimeout.o/
+pretimeout_noop.o/
+omap_wdt.o/
+softdog.o/
+/0              0           0     0     644     11652     `
+/17             0           0     0     644     17252     `
+/33             0           0     0     644     6644      `
+/56             0           0     0     644     3352      `
+/75             0           0     0     644     8616      `
+/87             0           0     0     644     8504      `

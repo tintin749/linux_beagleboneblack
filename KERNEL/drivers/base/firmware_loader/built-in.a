@@ -1,0 +1,21 @@
+!<thin>
+//                                              262       `
+fallback_table.o/
+main.o/
+fallback.o/
+builtin/regulatory.db.gen.o/
+builtin/regulatory.db.p7s.gen.o/
+builtin/am335x-pm-firmware.elf.gen.o/
+builtin/am335x-bone-scale-data.bin.gen.o/
+builtin/am335x-evm-scale-data.bin.gen.o/
+builtin/am43x-evm-scale-data.bin.gen.o/
+
+/0              0           0     0     644     1936      `
+/18             0           0     0     644     28164     `
+/26             0           0     0     644     10768     `
+/38             0           0     0     644     5728      `
+/67             0           0     0     644     2196      `
+/100            0           0     0     644     218172    `
+/138            0           0     0     644     1112      `
+/180            0           0     0     644     1056      `
+/221            0           0     0     644     1076      `

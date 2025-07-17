@@ -1,0 +1,3 @@
+drivers/spi/spidev.ko
+drivers/spi/spi-slave-time.ko
+drivers/spi/spi-slave-system-control.ko

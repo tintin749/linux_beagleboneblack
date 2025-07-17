@@ -1,0 +1,15 @@
+!<thin>
+//                                              86        `
+jedec_ddr_data.o/
+of_memory.o/
+emif.o/
+omap-gpmc.o/
+ti-emif-pm.o/
+ti-emif-sram-pm.o/
+
+/0              0           0     0     644     3184      `
+/18             0           0     0     644     11788     `
+/31             0           0     0     644     18132     `
+/39             0           0     0     644     39712     `
+/52             0           0     0     644     8620      `
+/66             0           0     0     644     1812      `

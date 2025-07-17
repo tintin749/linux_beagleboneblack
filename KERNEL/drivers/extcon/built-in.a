@@ -1,0 +1,13 @@
+!<thin>
+//                                              72        `
+extcon.o/
+devres.o/
+extcon-gpio.o/
+extcon-palmas.o/
+extcon-usb-gpio.o/
+
+/0              0           0     0     644     28520     `
+/10             0           0     0     644     8332      `
+/20             0           0     0     644     5068      `
+/35             0           0     0     644     13556     `
+/52             0           0     0     644     7788      `

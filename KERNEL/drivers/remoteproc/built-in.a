@@ -1,0 +1,18 @@
+!<thin>
+//                                              166       `
+remoteproc_core.o/
+remoteproc_coredump.o/
+remoteproc_debugfs.o/
+remoteproc_sysfs.o/
+remoteproc_virtio.o/
+remoteproc_elf_loader.o/
+remoteproc_cdev.o/
+wkup_m3_rproc.o/
+/0              0           0     0     644     50208     `
+/19             0           0     0     644     6540      `
+/42             0           0     0     644     12836     `
+/64             0           0     0     644     6636      `
+/84             0           0     0     644     8852      `
+/105            0           0     0     644     8916      `
+/130            0           0     0     644     4620      `
+/149            0           0     0     644     7220      `

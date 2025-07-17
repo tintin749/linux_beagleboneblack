@@ -1,0 +1,15 @@
+!<thin>
+//                                              176       `
+regulatory.db.gen.o/
+regulatory.db.p7s.gen.o/
+am335x-pm-firmware.elf.gen.o/
+am335x-bone-scale-data.bin.gen.o/
+am335x-evm-scale-data.bin.gen.o/
+am43x-evm-scale-data.bin.gen.o/
+
+/0              0           0     0     644     5728      `
+/21             0           0     0     644     2196      `
+/46             0           0     0     644     218172    `
+/76             0           0     0     644     1112      `
+/110            0           0     0     644     1056      `
+/143            0           0     0     644     1076      `

@@ -1,0 +1,5 @@
+drivers/media/platform/ti/vpe/ti-vpe.ko
+drivers/media/platform/ti/vpe/ti-vpdma.ko
+drivers/media/platform/ti/vpe/ti-sc.ko
+drivers/media/platform/ti/vpe/ti-csc.ko
+drivers/media/platform/video-mux.ko

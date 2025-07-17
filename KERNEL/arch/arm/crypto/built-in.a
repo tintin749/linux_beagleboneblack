@@ -1,0 +1,17 @@
+!<thin>
+//                                              130       `
+chacha-scalar-core.o/
+chacha-glue.o/
+chacha-neon-core.o/
+poly1305-core.o/
+poly1305-glue.o/
+curve25519-core.o/
+curve25519-glue.o/
+
+/0              0           0     0     644     11284     `
+/22             0           0     0     644     12760     `
+/37             0           0     0     644     2048      `
+/57             0           0     0     644     3608      `
+/74             0           0     0     644     8780      `
+/91             0           0     0     644     8764      `
+/110            0           0     0     644     6668      `

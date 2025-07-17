@@ -1,0 +1,35 @@
+!<thin>
+//                                              244       `
+tpm-chip.o/
+tpm-dev-common.o/
+tpm-dev.o/
+tpm-interface.o/
+tpm1-cmd.o/
+tpm2-cmd.o/
+tpmrm-dev.o/
+tpm2-space.o/
+tpm-sysfs.o/
+eventlog/common.o/
+eventlog/tpm1.o/
+eventlog/tpm2.o/
+eventlog/efi.o/
+eventlog/of.o/
+tpm_i2c_atmel.o/
+tpm_i2c_infineon.o/
+
+/0              0           0     0     644     12332     `
+/12             0           0     0     644     6216      `
+/30             0           0     0     644     2788      `
+/41             0           0     0     644     14668     `
+/58             0           0     0     644     10300     `
+/70             0           0     0     644     12880     `
+/82             0           0     0     644     2076      `
+/95             0           0     0     644     8784      `
+/109            0           0     0     644     8400      `
+/122            0           0     0     644     3908      `
+/141            0           0     0     644     5156      `
+/158            0           0     0     644     2720      `
+/175            0           0     0     644     2300      `
+/191            0           0     0     644     2444      `
+/206            0           0     0     644     7596      `
+/223            0           0     0     644     11900     `

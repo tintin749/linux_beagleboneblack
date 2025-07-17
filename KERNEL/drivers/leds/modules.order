@@ -1,0 +1,15 @@
+drivers/leds/trigger/ledtrig-transient.ko
+drivers/leds/trigger/ledtrig-camera.ko
+drivers/leds/trigger/ledtrig-pattern.ko
+drivers/leds/trigger/ledtrig-audio.ko
+drivers/leds/led-class-multicolor.ko
+drivers/leds/leds-bd2802.ko
+drivers/leds/leds-lp3944.ko
+drivers/leds/leds-lp5523.ko
+drivers/leds/leds-lp55xx-common.ko
+drivers/leds/leds-lt3593.ko
+drivers/leds/leds-pca955x.ko
+drivers/leds/leds-pwm.ko
+drivers/leds/leds-regulator.ko
+drivers/leds/leds-tca6507.ko
+drivers/leds/leds-dac124s085.ko

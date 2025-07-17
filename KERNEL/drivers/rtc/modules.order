@@ -1,0 +1,15 @@
+drivers/rtc/rtc-bq4802.ko
+drivers/rtc/rtc-ds1286.ko
+drivers/rtc/rtc-ds1511.ko
+drivers/rtc/rtc-ds1553.ko
+drivers/rtc/rtc-ds1685.ko
+drivers/rtc/rtc-ds1742.ko
+drivers/rtc/rtc-ds2404.ko
+drivers/rtc/rtc-hid-sensor-time.ko
+drivers/rtc/rtc-m48t35.ko
+drivers/rtc/rtc-m48t59.ko
+drivers/rtc/rtc-m48t86.ko
+drivers/rtc/rtc-msm6242.ko
+drivers/rtc/rtc-rp5c01.ko
+drivers/rtc/rtc-stk17ta8.ko
+drivers/rtc/rtc-v3020.ko

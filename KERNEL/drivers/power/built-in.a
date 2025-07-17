@@ -1,0 +1,21 @@
+!<thin>
+//                                              234       `
+reset/gpio-poweroff.o/
+reset/gpio-restart.o/
+reset/restart-poweroff.o/
+reset/syscon-reboot.o/
+reset/syscon-poweroff.o/
+supply/power_supply_core.o/
+supply/power_supply_sysfs.o/
+supply/power_supply_leds.o/
+supply/power_supply_hwmon.o/
+
+/0              0           0     0     644     5676      `
+/23             0           0     0     644     6040      `
+/45             0           0     0     644     4396      `
+/71             0           0     0     644     4028      `
+/94             0           0     0     644     4564      `
+/119            0           0     0     644     40540     `
+/147            0           0     0     644     14208     `
+/176            0           0     0     644     4080      `
+/204            0           0     0     644     6148      `

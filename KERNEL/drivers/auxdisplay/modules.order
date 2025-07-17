@@ -1,0 +1,4 @@
+drivers/auxdisplay/charlcd.ko
+drivers/auxdisplay/img-ascii-lcd.ko
+drivers/auxdisplay/hd44780.ko
+drivers/auxdisplay/ht16k33.ko

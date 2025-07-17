@@ -1,0 +1,28 @@
+!<thin>
+//                                              234       `
+i2c-boardinfo.o/
+i2c-core-base.o/
+i2c-core-smbus.o/
+i2c-core-slave.o/
+i2c-core-of.o/
+i2c-dev.o/
+i2c-mux.o/
+algos/i2c-algo-bit.o/
+busses/i2c-gpio.o/
+busses/i2c-omap.o/
+muxes/i2c-mux-gpio.o/
+muxes/i2c-mux-pinctrl.o/
+i2c-slave-eeprom.o/
+/0              0           0     0     644     4696      `
+/17             0           0     0     644     74208     `
+/34             0           0     0     644     33900     `
+/52             0           0     0     644     5008      `
+/70             0           0     0     644     9316      `
+/85             0           0     0     644     14948     `
+/96             0           0     0     644     9736      `
+/107            0           0     0     644     10448     `
+/129            0           0     0     644     7888      `
+/148            0           0     0     644     16856     `
+/167            0           0     0     644     6732      `
+/189            0           0     0     644     6568      `
+/214            0           0     0     644     5608      `

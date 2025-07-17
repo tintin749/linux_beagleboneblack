@@ -1,0 +1,12 @@
+drivers/fpga/fpga-mgr.ko
+drivers/fpga/altera-ps-spi.ko
+drivers/fpga/ice40-spi.ko
+drivers/fpga/machxo2-spi.ko
+drivers/fpga/xilinx-spi.ko
+drivers/fpga/altera-pr-ip-core.ko
+drivers/fpga/altera-pr-ip-core-plat.ko
+drivers/fpga/fpga-bridge.ko
+drivers/fpga/altera-freeze-bridge.ko
+drivers/fpga/xilinx-pr-decoupler.ko
+drivers/fpga/fpga-region.ko
+drivers/fpga/of-fpga-region.ko

@@ -1,0 +1,70 @@
+!<thin>
+//                                              508       `
+dss/omapdss-boot-init.o/
+dss/base.o/
+dss/display.o/
+dss/output.o/
+dss/dss.o/
+dss/dispc.o/
+dss/dispc_coefs.o/
+dss/pll.o/
+dss/video-pll.o/
+dss/dpi.o/
+dss/venc.o/
+dss/hdmi_common.o/
+dss/hdmi_wp.o/
+dss/hdmi_pll.o/
+dss/hdmi_phy.o/
+dss/hdmi4.o/
+dss/hdmi4_core.o/
+dss/hdmi4_cec.o/
+dss/hdmi5.o/
+dss/hdmi5_core.o/
+omap_drv.o/
+omap_irq.o/
+omap_debugfs.o/
+omap_crtc.o/
+omap_plane.o/
+omap_overlay.o/
+omap_encoder.o/
+omap_connector.o/
+omap_fb.o/
+omap_gem.o/
+omap_gem_dmabuf.o/
+omap_dmm_tiler.o/
+tcm-sita.o/
+omap_fbdev.o/
+/0              0           0     0     644     5968      `
+/25             0           0     0     644     16348     `
+/37             0           0     0     644     3196      `
+/52             0           0     0     644     9948      `
+/66             0           0     0     644     23204     `
+/77             0           0     0     644     64516     `
+/90             0           0     0     644     3472      `
+/109            0           0     0     644     8584      `
+/120            0           0     0     644     3488      `
+/137            0           0     0     644     8100      `
+/148            0           0     0     644     11860     `
+/160            0           0     0     644     2804      `
+/179            0           0     0     644     8308      `
+/194            0           0     0     644     4116      `
+/210            0           0     0     644     3120      `
+/226            0           0     0     644     15444     `
+/239            0           0     0     644     25668     `
+/257            0           0     0     644     4448      `
+/274            0           0     0     644     14984     `
+/287            0           0     0     644     14532     `
+/305            0           0     0     644     18612     `
+/317            0           0     0     644     6144      `
+/329            0           0     0     644     2900      `
+/345            0           0     0     644     14996     `
+/358            0           0     0     644     10948     `
+/372            0           0     0     644     4960      `
+/388            0           0     0     644     4272      `
+/404            0           0     0     644     3780      `
+/422            0           0     0     644     8328      `
+/433            0           0     0     644     15516     `
+/445            0           0     0     644     4436      `
+/464            0           0     0     644     21476     `
+/482            0           0     0     644     3340      `
+/494            0           0     0     644     6544      `

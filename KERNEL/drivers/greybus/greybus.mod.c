@@ -1,0 +1,153 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x3726c6aa, "module_layout" },
+	{ 0x92b57248, "flush_work" },
+	{ 0x2d3385d3, "system_wq" },
+	{ 0x67f0e816, "bus_register" },
+	{ 0x6595a339, "kmem_cache_destroy" },
+	{ 0x8335c0f7, "kmalloc_caches" },
+	{ 0x2d6fcc06, "__kmalloc" },
+	{ 0xf9a482f9, "msleep" },
+	{ 0xd1c7f296, "__pm_runtime_idle" },
+	{ 0x8221889f, "driver_register" },
+	{ 0x4ae4635, "trace_handle_return" },
+	{ 0x528c709d, "simple_read_from_buffer" },
+	{ 0xc5b8ad2e, "debugfs_create_dir" },
+	{ 0x6c027e43, "__pm_runtime_disable" },
+	{ 0x2e5810c6, "__aeabi_unwind_cpp_pr1" },
+	{ 0x6d734846, "__pm_runtime_use_autosuspend" },
+	{ 0x43f084d6, "__pm_runtime_suspend" },
+	{ 0xffeedf6a, "delayed_work_timer_fn" },
+	{ 0xb1b939e, "kmemdup" },
+	{ 0x618727d6, "param_ops_bool" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0x29d9f26e, "cancel_delayed_work_sync" },
+	{ 0x67ea780, "mutex_unlock" },
+	{ 0x76d014a7, "__pm_runtime_resume" },
+	{ 0x31b0dc93, "trace_event_buffer_reserve" },
+	{ 0x32d70e66, "debugfs_create_file" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0x2d39b0a7, "kstrdup" },
+	{ 0x526c3a6c, "jiffies" },
+	{ 0x131db64a, "system_long_wq" },
+	{ 0x97934ecf, "del_timer_sync" },
+	{ 0x84fd67e0, "_dev_warn" },
+	{ 0x5f754e5a, "memset" },
+	{ 0x7f205428, "tracepoint_srcu" },
+	{ 0x124bad4d, "kstrtobool" },
+	{ 0xb96022f3, "device_del" },
+	{ 0x18c34ba0, "bpf_trace_run1" },
+	{ 0xf3d0b495, "_raw_spin_unlock_irqrestore" },
+	{ 0xe346f67a, "__mutex_init" },
+	{ 0xc5850110, "printk" },
+	{ 0xe1537255, "__list_del_entry_valid" },
+	{ 0x3d9f21fe, "__cpu_online_mask" },
+	{ 0xaa19e4aa, "_kstrtol" },
+	{ 0xc917e655, "debug_smp_processor_id" },
+	{ 0xf1e046cc, "panic" },
+	{ 0x30745185, "wait_for_completion_interruptible" },
+	{ 0x84be1006, "driver_unregister" },
+	{ 0xa24491bf, "ida_free" },
+	{ 0x5969778, "trace_event_reg" },
+	{ 0xd5df2720, "_raw_spin_unlock_irq" },
+	{ 0x9cc4f70a, "register_pm_notifier" },
+	{ 0x158625bc, "debugfs_remove" },
+	{ 0xa9ee6578, "kmem_cache_free" },
+	{ 0xc271c3be, "mutex_lock" },
+	{ 0x8c03d20c, "destroy_workqueue" },
+	{ 0xa7eedcc4, "call_usermodehelper" },
+	{ 0x24d273d1, "add_timer" },
+	{ 0xbc7b0a6d, "device_add" },
+	{ 0x6091797f, "synchronize_rcu" },
+	{ 0xf70e4a4d, "preempt_schedule_notrace" },
+	{ 0x91452968, "_dev_err" },
+	{ 0xbbef2540, "bus_unregister" },
+	{ 0xce27df64, "perf_trace_run_bpf_submit" },
+	{ 0xaaecf75d, "perf_trace_buf_alloc" },
+	{ 0x68f31cbd, "__list_add_valid" },
+	{ 0x42160169, "flush_workqueue" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0x355c6ba6, "_dev_info" },
+	{ 0x7dabad7a, "kmem_cache_alloc" },
+	{ 0xe30895e7, "pm_runtime_enable" },
+	{ 0x97a46290, "trace_event_ignore_this_pid" },
+	{ 0x2bf7ac59, "put_device" },
+	{ 0xcf86cdac, "queue_delayed_work_on" },
+	{ 0x296695f, "refcount_warn_saturate" },
+	{ 0x86332725, "__stack_chk_fail" },
+	{ 0x1000e51, "schedule" },
+	{ 0x77f6f183, "kmalloc_order_trace" },
+	{ 0xee43fd9b, "___ratelimit" },
+	{ 0xd86b61c4, "_raw_spin_lock_irq" },
+	{ 0x4af6ddf0, "kstrtou16" },
+	{ 0xa83edb65, "__pm_runtime_set_status" },
+	{ 0x9074ff70, "sysfs_notify" },
+	{ 0x9135dba6, "wait_for_completion_interruptible_timeout" },
+	{ 0x2368beb3, "trace_event_buffer_commit" },
+	{ 0xbbb88a08, "dev_driver_string" },
+	{ 0xfe2e64c4, "kmem_cache_alloc_trace" },
+	{ 0x81b256c5, "__dynamic_dev_dbg" },
+	{ 0x1176e07f, "__per_cpu_offset" },
+	{ 0xde55e795, "_raw_spin_lock_irqsave" },
+	{ 0x607c184d, "get_device" },
+	{ 0xc541b1f4, "kmem_cache_create" },
+	{ 0xf2ee7a43, "synchronize_srcu" },
+	{ 0x2361d95b, "event_triggers_call" },
+	{ 0x3dcf1ffa, "__wake_up" },
+	{ 0x647af474, "prepare_to_wait_event" },
+	{ 0x2cfde9a2, "warn_slowpath_fmt" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x9d669763, "memcpy" },
+	{ 0xe9134b56, "trace_event_raw_init" },
+	{ 0x27a1f99f, "device_initialize" },
+	{ 0x7681946c, "unregister_pm_notifier" },
+	{ 0x314b20c8, "scnprintf" },
+	{ 0x49970de8, "finish_wait" },
+	{ 0x870d5a1c, "__init_swait_queue_head" },
+	{ 0xc51edc0c, "pm_runtime_set_autosuspend_delay" },
+	{ 0xefd6cf06, "__aeabi_unwind_cpp_pr0" },
+	{ 0x222e7ce2, "sysfs_streq" },
+	{ 0x8f678b07, "__stack_chk_guard" },
+	{ 0xb13e81a9, "trace_raw_output_prep" },
+	{ 0xb2d48a2e, "queue_work_on" },
+	{ 0xc37335b0, "complete" },
+	{ 0xc358aaf8, "snprintf" },
+	{ 0xb39c7cf9, "trace_seq_printf" },
+	{ 0x6ebe366f, "ktime_get_mono_fast_ns" },
+	{ 0x2e641d99, "dev_set_name" },
+	{ 0x7f02188f, "__msecs_to_jiffies" },
+	{ 0x4756260d, "ida_destroy" },
+	{ 0xdf9208c0, "alloc_workqueue" },
+	{ 0xa5684076, "ida_alloc_range" },
+	{ 0x9c6febfc, "add_uevent_var" },
+};
+
+MODULE_INFO(depends, "");
+

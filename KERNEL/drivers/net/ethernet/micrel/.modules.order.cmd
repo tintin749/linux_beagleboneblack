@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/micrel/modules.order := {   echo drivers/net/ethernet/micrel/ks8851_common.ko;   echo drivers/net/ethernet/micrel/ks8851_spi.ko; :; } | awk '!x[$$0]++' - > drivers/net/ethernet/micrel/modules.order

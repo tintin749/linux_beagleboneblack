@@ -1,0 +1,117 @@
+# 1 "arch/arm/boot/dts/overlays/PB-HACKADAY-2021.dts"
+# 1 "<built-in>"
+# 1 "<command-line>"
+# 1 "arch/arm/boot/dts/overlays/PB-HACKADAY-2021.dts"
+
+
+
+
+
+/dts-v1/;
+/plugin/;
+
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/gpio/gpio.h" 1
+# 10 "arch/arm/boot/dts/overlays/PB-HACKADAY-2021.dts" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/am33xx.h" 1
+# 9 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/am33xx.h"
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/omap.h" 1
+# 10 "./scripts/dtc/include-prefixes/dt-bindings/pinctrl/am33xx.h" 2
+# 11 "arch/arm/boot/dts/overlays/PB-HACKADAY-2021.dts" 2
+# 1 "./scripts/dtc/include-prefixes/dt-bindings/interrupt-controller/irq.h" 1
+# 12 "arch/arm/boot/dts/overlays/PB-HACKADAY-2021.dts" 2
+
+
+
+
+&{/chosen} {
+ overlays {
+  PB-HACKADAY-2021.kernel = "Mon Jul 14 22:28:01 2025";
+ };
+};
+
+
+
+
+&ocp {
+ P1_28_pinmux { status = "disabled"; };
+ P1_26_pinmux { status = "disabled"; };
+ P2_05_pinmux { status = "disabled"; };
+ P2_07_pinmux { status = "disabled"; };
+};
+
+&am33xx_pinmux {
+ i2c2_pins: pinmux-i2c2-pins {
+  pinctrl-single,pins = <
+   ((((0x97c)) & 0xffff) - (0x0800)) ((((1 << 5) | (1 << 4))) | (3))
+   ((((0x978)) & 0xffff) - (0x0800)) ((((1 << 5) | (1 << 4))) | (3))
+  >;
+ };
+
+ grove_button_uart4_pins: pinmux_grove_button_uart4_pins {
+  pinctrl-single,pins = <
+
+   ((((0x0870)) & 0xffff) - (0x0800)) (((1 << 5) | (1 << 3)) | 7)
+   ((((0x0874)) & 0xffff) - (0x0800)) (((1 << 5) | (1 << 3)) | 7)
+  >;
+ };
+};
+
+&{/} {
+ gpio_keys {
+  compatible = "gpio-keys";
+  pinctrl-names = "default";
+  pinctrl-0 = <&grove_button_uart4_pins>;
+
+  #address-cells = <1>;
+  #size-cells = <0>;
+
+  grove_button_uart4_0@6 {
+   debounce_interval = <50>;
+   linux,code = <0x106>;
+   label = "grove:usr6";
+   gpios = <&gpio0 30 0x0>;
+   gpio-key,wakeup;
+   autorepeat;
+  };
+
+  grove_button_uart4_1@7 {
+   debounce_interval = <50>;
+   linux,code = <0x107>;
+   label = "grove:usr7";
+   gpios = <&gpio0 31 0x1>;
+   gpio-key,wakeup;
+   autorepeat;
+  };
+ };
+};
+
+&i2c1 {
+ #address-cells = <1>;
+ #size-cells = <0>;
+
+ jhd1802@3e {
+  compatible = "seeed-hd44780";
+  reg = <0x3e>;
+  status = "okay";
+ };
+
+ adxl345@53 {
+  compatible = "adi,adxl345";
+  reg = <0x53>;
+  status = "okay";
+ };
+};
+
+&i2c2 {
+ pinctrl-names = "default";
+ pinctrl-0 = <&i2c2_pins>;
+
+ #address-cells = <1>;
+ #size-cells = <0>;
+
+ sht3x@45 {
+  compatible = "sensirion,sht3x";
+  reg = <0x45>;
+  status = "okay";
+ };
+};

@@ -1,0 +1,4 @@
+drivers/i2c/busses/i2c-diolan-u2c.ko
+drivers/i2c/busses/i2c-robotfuzz-osif.ko
+drivers/i2c/busses/i2c-taos-evm.ko
+drivers/i2c/busses/i2c-tiny-usb.ko

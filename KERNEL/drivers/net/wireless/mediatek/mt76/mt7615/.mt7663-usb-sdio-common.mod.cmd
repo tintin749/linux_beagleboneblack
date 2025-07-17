@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt7615/mt7663-usb-sdio-common.mod := { echo  drivers/net/wireless/mediatek/mt76/mt7615/usb_sdio.o;  echo; } > drivers/net/wireless/mediatek/mt76/mt7615/mt7663-usb-sdio-common.mod

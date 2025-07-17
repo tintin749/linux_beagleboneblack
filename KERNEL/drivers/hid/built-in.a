@@ -1,0 +1,43 @@
+!<thin>
+//                                              312       `
+hid-core.o/
+hid-input.o/
+hid-quirks.o/
+hid-debug.o/
+hidraw.o/
+uhid.o/
+hid-generic.o/
+hid-lg.o/
+hid-lgff.o/
+hid-lg2ff.o/
+hid-lg3ff.o/
+hid-lg4ff.o/
+hid-lg-g15.o/
+hid-logitech-dj.o/
+hid-logitech-hidpp.o/
+usbhid/hid-core.o/
+usbhid/hiddev.o/
+usbhid/hid-pidff.o/
+i2c-hid/i2c-hid-core.o/
+i2c-hid/i2c-hid-dmi-quirks.o/
+
+/0              0           0     0     644     49420     `
+/12             0           0     0     644     49128     `
+/25             0           0     0     644     20088     `
+/39             0           0     0     644     43516     `
+/52             0           0     0     644     12748     `
+/62             0           0     0     644     12780     `
+/70             0           0     0     644     3864      `
+/85             0           0     0     644     19628     `
+/95             0           0     0     644     3252      `
+/107            0           0     0     644     2360      `
+/120            0           0     0     644     2492      `
+/133            0           0     0     644     19104     `
+/146            0           0     0     644     12388     `
+/160            0           0     0     644     25020     `
+/179            0           0     0     644     42196     `
+/201            0           0     0     644     31728     `
+/220            0           0     0     644     13440     `
+/237            0           0     0     644     22760     `
+/257            0           0     0     644     21204     `
+/281            0           0     0     644     7888      `

@@ -1,0 +1,1 @@
+cmd_crypto/aegis128.o := /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/temp/dl/gcc-10.5.0-nolibc/arm-linux-gnueabi/bin/arm-linux-gnueabi-ld  -EL -z noexecstack --no-warn-rwx-segments    -r -o crypto/aegis128.o crypto/aegis128-core.o crypto/aegis128-neon.o crypto/aegis128-neon-inner.o

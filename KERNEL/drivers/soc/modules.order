@@ -1,0 +1,4 @@
+drivers/soc/qcom/qmi_helpers.ko
+drivers/soc/ti/pm33xx.ko
+drivers/soc/ti/wkup_m3_ipc.ko
+drivers/soc/ti/pruss.ko

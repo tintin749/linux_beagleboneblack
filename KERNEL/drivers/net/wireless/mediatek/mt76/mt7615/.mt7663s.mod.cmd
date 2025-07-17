@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/mediatek/mt76/mt7615/mt7663s.mod := { echo  drivers/net/wireless/mediatek/mt76/mt7615/sdio.o drivers/net/wireless/mediatek/mt76/mt7615/sdio_mcu.o drivers/net/wireless/mediatek/mt76/mt7615/sdio_txrx.o;  echo; } > drivers/net/wireless/mediatek/mt76/mt7615/mt7663s.mod
