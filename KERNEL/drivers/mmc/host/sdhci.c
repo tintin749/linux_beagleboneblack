@@ -4908,6 +4908,8 @@ static int __init sdhci_drv_init(void)
 		": Secure Digital Host Controller Interface driver\n");
 	pr_info(DRIVER_NAME ": Copyright(c) Pierre Ossman\n");
 	pr_info(DRIVER_NAME ": Copyright(c) Chandan. Ananlyze mmc_subsystem \n");
+	
+	pr_info(DRIVER_NAME ": Github: vcs : Chandan. Ananlyze mmc_subsystem \n");
 
 	return 0;
 }
