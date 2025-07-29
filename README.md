@@ -104,3 +104,6 @@
   - [ ] Plan next steps for deeper exploration or contribution  
 
 ---
+
+
+Path on Linux PC : /media/chandan/1ce61dd8-cc98-4b87-a167-d3e43f659fc4/home/developer/development/linux/bbb_setup/sdcard_linux/linux_beagleboneblack
