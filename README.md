@@ -13,9 +13,9 @@
   - [ ] Study Linux kernel basics: modules, device model, sysfs, udev  
   - [ ] Explore kernel documentation  
 
-- [X] **Wed:**  
-  - [X] Explore `drivers/mmc/` and `include/linux/mmc/`  
-  - [X] Identify and list key files (mmc_core.c, mmc_block.c, host drivers)  
+- [-] **Wed:**  
+  - [-] Explore `drivers/mmc/` and `include/linux/mmc/`  
+  - [-] Identify and list key files (mmc_core.c, mmc_block.c, host drivers)  
 
 - [ ] **Thu:**  
   - [ ] Deep dive into MMC device model: `struct mmc_host`, `struct mmc_card`, `struct mmc_request`  
