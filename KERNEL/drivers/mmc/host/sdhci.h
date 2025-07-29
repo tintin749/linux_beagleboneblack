@@ -19,6 +19,8 @@
 
 #include <linux/mmc/host.h>
 
+#define SDHCI_TRACE_ENTRY_EXIT 1
+
 /*
  * Controller registers
  */

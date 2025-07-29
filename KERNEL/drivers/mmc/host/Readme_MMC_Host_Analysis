@@ -1,0 +1,73 @@
+Files from Host that come into action :
+
+
+
+tintin749: mmc subsystem code flow
+
+GitHub Copilot: The MMC (MultiMediaCard) subsystem in Linux handles communication between the kernel and MMC/SD cards. Here’s a high-level code flow overview:
+
+1. **Initialization**  
+   - The MMC core (`drivers/mmc/core/`) initializes during boot.
+   - Host controller drivers (e.g., `drivers/mmc/host/`) register with the core.
+
+2. **Card Detection**  
+   - Host controller detects card insertion/removal.
+   - Notifies MMC core via callbacks.
+
+3. **Card Identification & Initialization**  
+   - MMC core sends commands (CMD0, CMD8, etc.) to identify and initialize the card.
+   - Card responds with its capabilities.
+
+4. **Block Device Registration**  
+   - Once initialized, the card is registered as a block device (`/dev/mmcblkX`).
+
+5. **Data Transfer**  
+   - Read/write requests from user space go through the block layer.
+   - MMC core translates these into MMC commands (CMD17, CMD24, etc.).
+   - Host controller driver handles actual data transfer (DMA/PIO).
+
+6. **Error Handling & Recovery**  
+   - Errors are reported back to the MMC core.
+   - Core may retry or reset the card/host as needed.
+
+**Key Files:**
+- `drivers/mmc/core/core.c`: MMC core logic
+- `drivers/mmc/core/block.c`: Block device interface
+- `drivers/mmc/host/`: Host controller drivers (e.g., `mmc_spi.c`, `sdhci.c`)
+
+**Typical Call Flow:**
+- User space → Block layer → MMC block driver → MMC core → Host controller → Card
+
+Let me know if you want a more detailed flow or code references for a specific part!
+
+tintin749: git command to see status for files with specific types
+
+GitHub Copilot: You can use the `git status` command with `--` and a glob pattern to see the status of files with specific types (extensions). For example, to see the status of all `.c` and `.h` files:
+
+```bash
+git status -- '*.c' '*.h'
+```
+
+You can add more patterns as needed.  
+The quotes are important to prevent the shell from expanding the globs.
+
+tintin749: Host folder in MMC subsystem in linux
+
+GitHub Copilot: The **host** folder in the MMC subsystem (`drivers/mmc/host/`) contains **host controller drivers**. These drivers are responsible for interfacing between the Linux MMC core and the hardware controller on your board (e.g., SDHCI, OMAP, etc.).
+
+**Key Points:**
+- Each file in host typically supports a specific hardware controller or SoC family.
+- The host driver implements functions to send commands, transfer data, handle interrupts, and manage power for the MMC/SD card interface.
+- The MMC core (`drivers/mmc/core/`) is hardware-agnostic and relies on these host drivers for actual hardware operations.
+
+**Examples of files you might see:**
+- `sdhci.c` – SD Host Controller Interface (standard for many platforms)
+- `omap_hsmmc.c` – OMAP High-Speed MMC controller (used on BeagleBone Black)
+- `mmci.c` – ARM PrimeCell PL180/181 MMC controller
+
+**Typical Flow:**
+1. Host driver registers with MMC core.
+2. When a card is detected, the host driver handles low-level communication.
+3. Data transfers and command handling are performed by the host driver, as directed by the MMC core.
+
+Let me know if you want details on a specific host driver or code flow!

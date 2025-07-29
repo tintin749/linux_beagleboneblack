@@ -35,6 +35,15 @@
 
 #include "sdhci.h"
 
+//#ifdef SDHCI_TRACE_ENTRY_EXIT
+#define TRACE_ENTRY(fmt, ...) pr_debug("ENTRY: %s: " fmt, __func__, ##__VA_ARGS__)
+#define TRACE_EXIT(fmt, ...)  pr_debug("EXIT:  %s: " fmt, __func__, ##__VA_ARGS__)
+//#else
+//#define TRACE_ENTRY(fmt, ...)
+//#define TRACE_EXIT(fmt, ...)
+//#endif
+
+
 #define DRIVER_NAME "sdhci"
 
 #define DBG(f, x...) \
@@ -4174,6 +4183,9 @@ static inline bool sdhci_can_64bit_dma(struct sdhci_host *host)
 
 int sdhci_setup_host(struct sdhci_host *host)
 {
+	TRACE_ENTRY("");
+	pr_info("%s: Enter %s, %s\n", mmc_hostname(host->mmc), __func__, __FILE__);
+
 	struct mmc_host *mmc;
 	u32 max_current_caps;
 	unsigned int ocr_avail;
@@ -4720,6 +4732,9 @@ undma:
 				  host->align_addr);
 	host->adma_table = NULL;
 	host->align_buffer = NULL;
+
+	TRACE_EXIT("");
+	pr_info("%s: Exit %s , %s \n", mmc_hostname(host->mmc), __func__, __FILE__);
 
 	return ret;
 }
